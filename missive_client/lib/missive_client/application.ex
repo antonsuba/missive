@@ -11,7 +11,7 @@ defmodule MissiveClient.Application do
       # Start the Telemetry supervisor
       MissiveClientWeb.Telemetry,
       # Start the Ecto repository
-      MissiveClient.Repo,
+      # MissiveClient.Repo,
       # Start the PubSub system
       {Phoenix.PubSub, name: MissiveClient.PubSub},
       # Start Finch
